@@ -1,0 +1,390 @@
+.corben-regular {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-bold {
+  font-family: "Corben", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nobile-regular {
+  font-family: "Nobile", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nobile-regular-italic {
+  font-family: "Nobile", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.nobile-medium {
+  font-family: "Nobile", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nobile-medium-italic {
+  font-family: "Nobile", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.nobile-bold {
+  font-family: "Nobile", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nobile-bold-italic {
+  font-family: "Nobile", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+:root {
+  --backPurple01: #5b4fc4;
+  --bottonColorPurple01: #42328b;
+  --linkColorPurple01: #8d76df;
+}
+
+.d-main {
+  background-image: url("/Projects/assets/img/backgroundimageorange.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-menu {
+  background-color: rgba(255, 255, 255, 0.123);
+  width: 100vw;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  box-sizing: border-box;
+
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+.w-color {
+  color: white;
+}
+
+.a-logo {
+  text-decoration: none;
+}
+
+.nav-menu {
+  height: 60px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+ul {
+  width: 100%;
+  height: 45px;
+  margin-block-start: 2em;
+  margin-block-end: 0;
+}
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  
+}
+
+header p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.box-text {
+  width: 700px;
+  height: 300px;
+  padding-left: 10px;
+  margin-left: 40px;
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-header {
+  width: 300px;
+  height: 50px;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: none;
+  background-color: var(--bottonColorPurple01);
+  color: white;
+}
+
+.btn-header:hover {
+  cursor: pointer;
+  background-color: var(--linkColorPurple01);
+  color: black;
+  transform: scale(1.1);
+}
+
+.sec-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.second-content {
+  display: flex;
+  position: absolute;
+  margin-top: -32px;
+  width: 80%;
+  height: 550px;
+  padding: 14px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-items: normal;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.grid-sec {
+  display: grid;
+  width: 100%;
+  height: 200px;
+  padding: 14px;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  justify-items: normal;
+  box-sizing: border-box;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  height: 110px;
+  padding-left: 10px;
+  align-items: center;
+  border-radius: 10px;
+  border-color: var(--linkColorPurple01);
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.grid-item h2 {
+  width: 200px;
+  height: 37px;
+  margin-top: -15px;
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.grid-item p {
+  font-size: 1rem;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+}
+
+.sec-content2 {
+  height: 100%;
+  width: 100%;
+}
+
+.sec-content2 h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  width: 100vw;
+  height: 100vh;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.contact-content {
+  display: flex;
+}
+.contact-content h4 {
+  margin-bottom: 20px;
+}
+
+.contact-content a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-form {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 60px;
+  width: 450px;
+  height: 490px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.contact-form input {
+  height: 25px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.contact-form textarea {
+  border-radius: 5px;
+  border-style: none;
+}
+
+.btn-form {
+  cursor: pointer;
+  height: 50px;
+  color: white;
+  background-color: var(--bottonColorPurple01);
+}
+
+.d-info {
+  width: 550px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.d-info ul {
+  margin-top: 8px;
+  padding-left: 10px;
+}
+
+.d-infob {
+  position: absolute;
+  margin-top: 600px;
+}
+
+.d-infotext {
+  position: absolute;
+  margin-top: 50px;
+  width: 720px;
+  height: 200px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.d-infotext h4 {
+  margin-top: 0;
+  font-size: 3rem;
+}
+.d-infotext p {
+  font-size: 1.5rem;
+}
+
+.footer-and {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 50px;
+  background-color: var(--bottonColorPurple01);
+  color: white;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-and a {
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
