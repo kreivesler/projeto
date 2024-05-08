@@ -83,7 +83,7 @@ p {
 }
 
 .d-main {
-  background-image: url("backgroundimageorange.png");
+  background-image: url("/projeto/backgroundimageorange.png");
   background-size: cover;
   background-position: center;
 }
